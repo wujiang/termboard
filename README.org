@@ -1,3 +1,5 @@
+[[https://drone.io/github.com/wujiang/termboard/latest][https://drone.io/github.com/wujiang/termboard/status.png]]
+
 ** termboard
 
 termboard is a library which provides an easy way to create grid based
