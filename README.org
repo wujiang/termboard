@@ -1,1 +1,26 @@
 ** termboard
+
+termboard is a library which provides an easy way to create grid based
+board games.
+
+*** Install
+
+#+BEGIN_SRC sh
+go get -u github.com/wujiang/termboard
+#+END_SRC
+
+
+*** Example
+
+#+BEGIN_SRC go
+import (
+	"github.com/nsf/termbox-go"
+	"github.com/wujiang/termboard"
+)
+
+func main() {
+	board := termboard.Init(4, 4)
+	defer termboard.Close()
+	board.Redraw()
+}
+#+END_SRC
